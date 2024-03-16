@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #181818;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* first part */
+.navbar{
+    display: flex;
+    padding: 20px;
+    margin: 0px 1px;
+    height: 122px;
+    width: 1365px;
+}
+
+.gymlogo{
+    display: flex;
+    margin-left: 75px;
+}
+
+nav div img{
+    height: 60px;
+    width: 80px;
+    margin-right: 4px;
+}
+
+nav div p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+ul li a:hover{
+    color:#ffa844;
+    border-bottom: 1px solid #ffa844;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+
+.list-items{
+    margin-right: 80px;
+    margin-top: 6px;
+}
+
+.nav-items{
+    padding: 16px 30px;
+}
+
+nav div{
+    margin-right: 110px;
+    padding: 2px;
+}
+
+.nav-button button{
+    padding: 10px 15px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #ffa844;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 25px;
+    width: 100px;
+}
+
+.nav-button button:hover{
+    padding: 10px 15px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #ff8800;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 25px;
+    width: 100px;
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+/* second part */
+.leftside{
+    display: inline-block;
+    width: 600px;
+    margin-left: 96px;
+}
+
+.leftside div{
+    margin-bottom: 10px;
+}
+
+.par1{
+    color: #ffa844;
+    font-weight: bold;
+    word-spacing: 1px;
+    
+}
+
+.sechead{
+    font-size: 65px;
+    margin-top: -20px;
+}
+
+.span1{
+    margin-right: 13px;
+    color:#4c3838;
+}
+
+.div1{
+    width: 620px;
+}
+
+.div1 p{
+    font-size: 13px;
+}
+
+.div2 button{
+    border-radius: 4px;
+    padding: 12px 23px;
+    border: none;
+    background-color: #ffa844;
+    margin-top: 13px;
+}
+
+.div2 button:hover{
+    border-radius: 4px;
+    padding: 12px 23px;
+    border: none;
+    background-color: #ff8800;
+    margin-top: 13px;
+    transition-duration: 0.6s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.rightside{
+    display: inline-block;
+
+}
+
+.rightside img{
+    top: 50px;
+    position: relative;
+    height: 468px;
+    width: 648px;
+}
+
+
+/* third part */
+.sec2{
+    position: relative;
+    left: 94px;
+    top: 140px;
+    height: 400px;
+    width: 1150px;
+}
+
+.div3 div h1{
+    word-spacing: 2px;
+}
+
+.div3 img{
+    bottom: 36px;
+    left: 1010px;
+    position: relative;
+    display: inline;
+    height: 36px;
+}
+
+.leftarrow1{
+    margin-right: 3px;
+}
+
+.div4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div4 div{
+    height: 266px;
+    width: 260px;
+    position: relative;
+    top: 43px;
+    right: 20px;
+    border-radius: 8px;
+    background-color: #2a2828;
+}
+
+.div4 div:hover{
+    border: 2px solid #ff8800;
+    background-color: #31313a;
+    transition-duration: 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+    z-index: 2;
+}
+
+.div4 div img{
+    border-radius: 4px;
+    top: 19px;
+    left: 15px;
+    position: absolute;
+    height: 46px;
+    width: 46px;
+}
+
+.div4 div h2{
+    position: absolute;
+    font-size: 16px;
+    font-weight: bolder;
+    top: 77px;
+    left: 18px;
+}
+
+.div4 div p{
+    position: absolute;
+    top: 115px;
+    left: 18px;
+    line-height: 22px;
+}
+
+
+/* fourth part */
+.sec3{
+    height: 720px;
+    width: 1106px;
+    margin-left: 102px;
+    margin-top: 290px;
+}
+
+.sec3 h1{
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.par-f{
+    text-align: center;
+    font-size: 15px;
+}
+
+.exercise{
+    width: 874px;
+    height: 436px;
+    filter: brightness(110%);
+    margin-left: 118px;
+    margin-top: 50px;
+    border-radius: 9px;
+}
+
+.join{
+    height: 126px;
+    width: 750px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: -8px;
+    left: 179px;
+    background-color: #1c1e22;
+    border-radius: 20px;
+}
+
+.card{
+    display: flex;
+    height: 100px;
+    width: 232px;
+    background-color: #1c1e22;
+    margin-top: 10px;
+}
+
+.join img{
+    height: 43px;
+    width: 43px;
+    border-radius: 3px;
+    margin-top: 26px;
+}
+
+.join h1{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.join p{
+    margin-left: 18px;
+    font-size: 12px;
+    margin-top: -4px;
+}
+
+
+/* fifth part */
+.sec4{
+    height: 620px;
+    width: 100%;
+    margin-top: 190px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 4px;
+}
+
+.sec4-info{
+    text-align: center;
+    height: 160px;
+}
+
+.sec4 h1{
+    font-size: 29px;
+    font-weight: 500;
+    padding-bottom: 17px;
+    word-spacing: 2px;
+}
+
+.sec4 p{
+    font-size: 15px;
+}
+
+.pricing{
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan{
+    height: 369px;
+    width: 295px;
+    border-radius: 8px;
+    background-color: #1d2026;
+}
+
+.upperplan{
+    display: flex;
+    margin-left: 14px;
+    border-bottom: 1px solid white;
+}
+
+.duration h2{
+    font-weight: 500;
+    font-size: 46px;
+}
+
+.duration h3{
+    font-size: 21px;
+    font-weight: 100;
+    margin-top: -16px;
+}
+
+.price{
+    margin-top: 12px;
+    margin-left: 72px;
+}
+
+.price .old{
+    margin-left: 7px;
+    font-size: 18px;
+    text-decoration: line-through 2px;
+}
+
+.price .new{
+    font-size: 32px;
+}
+
+.list{
+    margin-top: 17px;
+    margin-left: 33px;
+}
+
+.list ol{
+    display: block;
+    
+}
+
+.list li{
+    padding-bottom: 5px;
+    list-style-image: url(./tick4.png);
+}
+
+.plan .button1{
+    background: transparent;
+    color: wheat;
+    border: 2px solid #ff8800;
+    left: 35px;
+    top: 100px;
+    position: relative;
+    border-radius: 5px;
+    width: 205px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.plan .button2{
+    background: transparent;
+    color: wheat;
+    border: 2px solid #ff8800;
+    left: 35px;
+    top: 68px;
+    position: relative;
+    border-radius: 5px;
+    width: 205px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.plan .button3{
+    background: transparent;
+    color: wheat;
+    border: 2px solid #ff8800;
+    left: 30px;
+    top: 10px;
+    position: relative;
+    border-radius: 5px;
+    width: 210px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.plan button:hover{
+    color: white;
+    background-color: #ffa034;
+    border: 2px solid #ffa034;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+
+/* sixth part */
+.foot{
+    display: flex;
+    height: 375px;
+    width: 1118px;
+    margin-left: 116px;
+    margin-top: 90px;
+}
+
+.footleft{
+    margin-left: 18px;
+}
+
+.footleft h1{
+    margin-bottom: 20px;
+}
+
+.footright{
+    display: flex;
+    margin-left: 120px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+
+.social a{
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 100%;
+    color: rgb(0, 136, 255);
+}
+
+.footright a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-bottom: 12px;
+}
+
+.footright a:hover{
+    text-decoration: none;
+    color: #ff8800;
+    display: block;
+    padding-bottom: 12px;
+    transition-duration: 0.2s;
+    text-decoration: solid underline 2px;
+}
+
+.about{
+    margin-left: 45px;
+}
+
+.about h2{
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+
+.footdown{
+    display: block;
+}
+
+.span{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.copyright{
+    position: relative;
+    bottom: 90px;
+    left: 140px;
+    display: inline-block;
+}
+
+.copyright img{
+    height: 20px;
+    width: 20px;
+}
